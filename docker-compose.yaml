@@ -3,7 +3,7 @@ networks:
   default:
     name: expense
 volumes:
-  mysql:  # docker volume mysql  
+  mysql:  # docker volume create mysql  
      external: true
 services:
   mysql:
